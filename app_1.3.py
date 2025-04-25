@@ -6,8 +6,8 @@ from aiogram.filters import CommandStart, Command
 from aiogram.utils.keyboard import InlineKeyboardBuilder
 import aiosqlite
 
-API_TOKEN = '7940830818:AAG5-S_vrp_qdyuULVgMFPBJzClZYTIV_c4'
-ADMIN_ID = 1266484724
+API_TOKEN = 'token'
+ADMIN_ID = id
 DB_PATH = "videos.db"
 
 bot = Bot(token=API_TOKEN)
